@@ -1,10 +1,12 @@
 import ParagraphTextStyle from './ParagraphTextStyle';
 
 
-const H1Text =({value})=>{
+const ParagraphText =({value})=>{
     return(
         <ParagraphTextStyle>
             {value}
         </ParagraphTextStyle>
     )
 }
+
+export default ParagraphText;
